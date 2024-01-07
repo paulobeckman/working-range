@@ -1,11 +1,7 @@
-import Global from 'src/layouts/Global';
+import Routes from 'src/routes';
 
 function App() {
-  return (
-    <Global>
-      <h1>Working Range</h1>
-    </Global>
-  );
+  return Routes;
 }
 
 export default App;
